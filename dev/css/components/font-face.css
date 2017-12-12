@@ -1,0 +1,17 @@
+@font-face{
+  font-family: "Futura-p";
+  src: url('../fonts/Jut-Futura.ttf');
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: "Futura-p";
+  src: url('../fonts/Jut-Futura3.ttf');
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: "Proxima-nova";
+  src: url('../fonts/Proxima-nova.ttf');
+  font-weight: normal;
+}

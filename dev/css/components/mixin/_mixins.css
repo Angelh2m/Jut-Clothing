@@ -1,0 +1,12 @@
+@define-mixin isMedium{
+  @media(min-width: 800px){
+    @mixin-content;
+  }
+}
+
+
+@define-mixin isLarge{
+  @media(min-width: 1550px){
+    @mixin-content;
+  }
+}

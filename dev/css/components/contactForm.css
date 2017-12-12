@@ -1,0 +1,51 @@
+
+
+.contactForm{
+  margin-bottom: 6rem;
+
+  label{
+    display: block;
+  }
+  input{
+    width: 100%;
+    line-height: 3;
+  }
+  textarea{
+    width: 100%;
+    border: solid 1px #dfdfdf;
+  }
+
+}
+
+.Contact_button{
+  background-color: #333;
+  color: white;
+  width: 122px !important;
+  display: inline-block;
+  position: relative;
+  border: 0;
+  text-transform: uppercase;
+  font-size: .9rem;
+  letter-spacing: .5px;
+  height: 2.8rem;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+
+.newsletter{
+    display: flex;
+    justify-content: center;
+
+    input{
+      width: 225px;
+      padding: 0px 15px;
+      color: #adadad;
+      height: 2.8rem;
+      /*border: solid 1px #505050;*/
+          border: 1px solid rgba(0,0,0,.12);
+
+
+    }
+  }

@@ -1,0 +1,10 @@
+.info{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 6rem;
+  p{
+    /*font-size: .7rem;*/
+    font-size: .8rem;
+        color: #757575;
+  }
+}

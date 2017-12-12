@@ -1,0 +1,361 @@
+/* Modifications */
+
+html{
+  font-family: "Futura-p";
+  webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  margin-bottom: 0px;
+}
+
+*{
+  transition: all .2s;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin-left: 1rem;
+}
+ul{
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    -webkit-appearance: none;
+    border: solid 1px #dedcdc;
+}
+
+select{
+  border-radius: 0px;
+  border: none;
+  appearance:none;
+  line-height: 2;
+  padding: 0.3rem 1.3rem;
+  background-color: #f8f8f8;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+
+.flex{
+  display: flex;
+  & div{
+    background-color: whitesmoke;
+  }
+}
+
+
+
+.intro__text{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 6rem 0rem;
+
+  & h1{
+    font-weight: 100;
+  }
+}
+
+@mixin isMedium{
+
+  .intro__text{
+    width: 38rem;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 6rem 0rem;
+  }
+
+}
+
+
+.container_content{
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+
+/* Grid */
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+
+
+}
+
+h3 {
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: #333;
+
+}
+
+h4 {
+  font-size: 1.125rem;
+  color: #333;
+
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+  /*margin-bottom: 5rem;*/
+  font-family: "Proxima-nova";
+  font-size: .9rem;
+
+}
+
+article{
+  width: 100%;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+.col-12 {
+  padding: 0rem;
+  width: 100%;
+  /*@mixin isMedium {
+    padding: 1rem;
+  }*/
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 700;
+}
+
+
+/* POSITIONING */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+
+/* ==== GRID SYSTEM ==== */
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  width: 96%;
+}
+
+.col-1-sm {
+  width: 4.33%;
+}
+
+.col-2-sm {
+  width: 12.66%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33%;
+}
+
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 100%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 33.75em) {
+  /* 540px */
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 45em) {
+  /* 720px */
+  .col-1 {
+    width: 4.33%;
+  }
+  .col-2 {
+    width: 12.66%;
+  }
+  .col-3 {
+    width: 21%;
+  }
+  .col-4 {
+    width: 29.33%;
+  }
+  .col-5 {
+    width: 37.66%;
+  }
+  .col-6 {
+    width: 46%;
+  }
+  .col-7 {
+    width: 54.33%;
+  }
+  .col-8 {
+    width: 62.66%;
+  }
+  .col-9 {
+    width: 71%;
+  }
+  .col-10 {
+    width: 79.33%;
+  }
+  .col-11 {
+    width: 87.66%;
+  }
+  .col-12 {
+    width: 96%;
+  }
+  .hidden-sm {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  /* 960px */
+  .container {
+    width: 95%;
+    max-width: 90rem;
+  }
+}
+
+@mixin isMedium {
+  .col-3 {
+    width: 48%;
+  }
+  .grid .col-6:nth-child(odd) {
+    clear: both;
+  }
+}
+
+@mixin isLarge {
+  .col-lg-3 {
+    width: 21%;
+  }
+  .grid .col-6:nth-child(odd) {
+    clear: none;
+  }
+  .grid .col-lg-3:nth-child(4) {
+    clear: both;
+  }
+}
