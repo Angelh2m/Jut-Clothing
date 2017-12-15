@@ -1007,6 +1007,13 @@ input:-webkit-autofill {
   }
   }
 
+.woocommerce div.product form.cart .variations {
+    margin-bottom: 1em;
+    border: 0;
+    width: 100%;
+    margin-top: 1rem;
+}
+
 .woocommerce div.product p.price, .woocommerce div.product span.price {
     font-size: .9rem;
     color: #757575;
