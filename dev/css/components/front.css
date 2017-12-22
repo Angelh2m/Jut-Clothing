@@ -63,12 +63,13 @@
     overflow: hidden;
 
     div{
-      height: 50%;
+      /* height: 50%; */
       margin: 0;
       height: 48.8%;
       width: 100%;
       align-items: center;
       margin-top: 1rem;
+      display: inline-block;
     }
   }
 
@@ -92,7 +93,8 @@
     &__element__Two{
 
       width: 45%;
-      height: auto;
+      /* height: auto; */
+      height: 600px;
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -104,6 +106,7 @@
         height: 48.8%;
         width: 100%;
         align-items: center;
+        display: inline-block;
       }
     }
 

@@ -182,9 +182,14 @@
     display: block;
     font-weight: 400;
     margin-bottom: .5em;
-    font-size: .857em;
+    /* font-size: .857em; */
+    font-size: .7rem
 }
 
+.woocommerce-products-header h1{
+  font-size: 2.6rem;
+
+}
 
 #coupon_code{
   line-height: 1.5rem;
@@ -242,8 +247,14 @@
   width: 100%;
   display: list-item;
   list-style: disc;
+  margin-bottom: 0.5rem;
 
 }
+
+.woocommerce .woocommerce-breadcrumb {
+    font-size: .90rem;
+}
+
 .woocommerce-product-details__short-description ul{
   padding-left: 2rem;
   font-size: .9rem;

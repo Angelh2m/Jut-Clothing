@@ -19,7 +19,7 @@ class MobileMenu {
     this.array.forEach(function(object, index ) {
       setTimeout(function() {
         object.classList.add('active');
-        console.log(object);
+        // console.log(object);
       }, index * 1000)
     });
 
@@ -47,7 +47,7 @@ class MobileMenu {
 
     let navigation = this.navigation;
     let toggleButton = this.toggleButton;
-    console.log(toggleButton);
+    // console.log(toggleButton);
 
     this.button.addEventListener('click', function() {
 
